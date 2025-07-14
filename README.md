@@ -1,44 +1,63 @@
-# vCard - Personal portfolio
+# vCard - Personal Portfolio (Modifikasi oleh Rivaldi)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+Repo ini adalah hasil modifikasi dari project open source [vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio) buatan [codewithsadee](https://github.com/codewithsadee).
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+Gw ngambil base code dari repo tersebut, lalu gw ubah sesuai kebutuhan dan branding pribadi gw.
 
-## Demo
+---
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## 🔧 Perubahan yang Gw Lakuin
 
-## Prerequisites
+* Ganti semua konten default jadi identitas pribadi (nama, kontak, lokasi, dsb).
+* Ubah bahasa konten dari Inggris ke Bahasa Indonesia.
+* Tambah emoji & sentuhan visual biar lebih santai dan relevan sama target audiens.
+* Update bagian **About Me** dan **What I'm Doing** dengan gaya bahasa gw sendiri.
+* Optimasi minor pada struktur HTML dan styling CSS supaya tampil lebih konsisten.
 
-Before you begin, ensure you have met the following requirements:
+---
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+## 🖥️ Teknologi yang Dipakai
 
-## Installing vCard
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+</p>
 
-To install **vCard**, follow these steps:
+> Tidak menggunakan framework tambahan. Semuanya pure HTML, CSS, dan JavaScript.
 
-Linux and macOS:
+---
+
+## 📁 Cara Pakai
+
+Clone repo ini ke lokal:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+git clone https://github.com/rivaldiipal/vcard-personal-portfolio.git
 ```
 
-Windows:
+Lalu buka `index.html` di browser lo.
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+> Note: Tidak butuh instalasi npm ataupun build tools. Cukup langsung jalan via browser.
 
-## Contact
+---
 
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+## 📸 Demo
 
-## License
+![Desktop Demo](./website-demo-image/desktop.png)
+![Mobile Demo](./website-demo-image/mobile.png)
 
-MIT
+---
+
+## 📝 Lisensi
+
+Tetap menggunakan lisensi MIT seperti repo aslinya.
+
+---
+
+## 🙏 Kredit
+
+Project ini berbasis dari karya [codewithsadee](https://github.com/codewithsadee/vcard-personal-portfolio).
+Semua struktur awal dan gaya desain adalah milik beliau. Gw cuma adaptasi buat kebutuhan personal branding gw.
