@@ -1,4 +1,4 @@
-# vCard - Personal Portfolio (Modifikasi oleh Rivaldi)
+# Personal Portfolio
 
 Repo ini adalah hasil modifikasi dari project open source [vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio) buatan [codewithsadee](https://github.com/codewithsadee).
 
@@ -9,9 +9,6 @@ Gw ngambil base code dari repo tersebut, lalu gw ubah sesuai kebutuhan dan brand
 ## 🔧 Perubahan yang Gw Lakuin
 
 * Ganti semua konten default jadi identitas pribadi (nama, kontak, lokasi, dsb).
-* Ubah bahasa konten dari Inggris ke Bahasa Indonesia.
-* Tambah emoji & sentuhan visual biar lebih santai dan relevan sama target audiens.
-* Update bagian **About Me** dan **What I'm Doing** dengan gaya bahasa gw sendiri.
 * Optimasi minor pada struktur HTML dan styling CSS supaya tampil lebih konsisten.
 
 ---
@@ -35,19 +32,12 @@ Gw ngambil base code dari repo tersebut, lalu gw ubah sesuai kebutuhan dan brand
 Clone repo ini ke lokal:
 
 ```bash
-git clone https://github.com/rivaldiipal/vcard-personal-portfolio.git
+git clone https://https://github.com/rivaldikaufman/RIVALDI-WEBFOLIO.git
 ```
 
 Lalu buka `index.html` di browser lo.
 
 > Note: Tidak butuh instalasi npm ataupun build tools. Cukup langsung jalan via browser.
-
----
-
-## 📸 Demo
-
-![Desktop Demo](./website-demo-image/desktop.png)
-![Mobile Demo](./website-demo-image/mobile.png)
 
 ---
 
