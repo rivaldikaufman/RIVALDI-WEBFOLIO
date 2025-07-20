@@ -723,38 +723,30 @@ main {
 
 
 /**
- * #clients 
+ * #experience
  */
+  .experience-title {
+  margin-bottom: 2rem; /* Atau angka lain yang lu rasa pas, misalnya 1.5rem atau 3rem */
+}
 
-.clients { margin-bottom: 15px; }
+  .experience img {
+  width: 240px;
+  aspect-ratio: 1024 / 205;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+}
 
-.clients-list {
+.experience-item img:hover {
+  filter: none;
+}
+
+.experience-list {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
-  margin: 0 -15px;
-  padding: 25px;
-  padding-bottom: 25px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  overscroll-behavior-inline: contain;
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 25px;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
 }
-
-.clients-item {
-  min-width: 50%;
-  scroll-snap-align: start;
-}
-
-.clients-item img {
-  width: 100%;
-  filter: grayscale(1);
-  transition: var(--transition-1);
-}
-
-.clients-item img:hover { filter: grayscale(0); }
 
 
 
@@ -1878,5 +1870,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+
+
 
 }
